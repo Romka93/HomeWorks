@@ -35,3 +35,25 @@ console.log(typeof function asd() {})
 // typeof 1{}
 console.log(typeof 'number');
 
+console.log(typeof undefined);
+
+let b;
+console.log(typeof b);
+console.log(b);
+
+console.log(typeof null);
+
+function resulttime (a,b){
+    b = (b + 25) % 59;
+    if(b/59 < 1){
+        console.log(a , b);
+    } else {
+
+        a = a + 1;
+        console.log(a, b);
+    }
+}
+resulttime(10,50);
+
+
+
