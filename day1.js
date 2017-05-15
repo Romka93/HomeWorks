@@ -49,7 +49,7 @@ function resulttime (a,b){
         console.log(a , b);
     } else {
 
-        a = a + 1;
+        
         console.log(a, b);
     }
 }
